@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+    min-height: 100vh;
+    font-family: 'Sora', sans-serif;
+    padding: 1.5em;
+    background: #FAFAF9;
+}
+
+@media screen and (width > 992px) {
+    
+    body {
+        display: grid;
+        place-items: center;
+    }
+}
+

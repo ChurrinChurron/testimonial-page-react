@@ -1,0 +1,60 @@
+.box {
+
+    padding: 1.5em;
+    margin-bottom: 2.2em;
+    border-radius: .7em;
+    background: #ffffff;
+    text-align: center;
+}
+
+.box__stars {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box__logo {
+
+    width: 9em;
+    margin-bottom: 1em;
+}
+
+.box h3 {
+
+    margin-block: .8em;
+}
+
+.box p {
+
+    line-height: 1.8em;
+    max-width: 18em;
+}
+
+@media screen and (width > 1200px) {
+    
+    .box {
+
+        width: 22em;
+        text-align: left;
+    }
+    
+    .box:first-child {
+
+        position: relative;
+        left: 10em;
+    }
+
+
+    .box__stars {
+
+        flex-direction: row;
+        gap: 1.4em;
+    }
+
+    .box__logo {
+
+        width: 5.5em;
+        margin-bottom: 0;
+    }
+}

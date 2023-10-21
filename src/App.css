@@ -1,0 +1,67 @@
+.app {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+
+    margin-bottom: 4em;
+}
+
+.review__star {
+
+    width: 2.5em;
+    padding: .6em;
+    border-radius: 50%;
+    display: inline-block;
+    background: #F5C044;
+}
+
+.review h1 {
+
+    font-size: 2.2em;
+    margin-block: .4em;
+}
+
+.review h2 {
+
+    font-weight: 300;
+    font-size: 1.2em;
+    max-width: 27em;
+    margin-bottom: 1.8em;
+    line-height: 1.8em;
+}
+
+.review__check {
+
+    list-style: none;
+}
+
+.review__check li {
+
+    display: flex;
+    margin-block: .5em;
+    font-size: .930em;
+}
+
+.review__check li::before {
+
+    content: url('./assets/done.svg');
+    margin-right: .6em;
+
+}
+
+@media screen and (width > 1200px) {
+
+    .app {
+
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 5em;
+        position: relative;
+        right: 5em;
+    }
+}
