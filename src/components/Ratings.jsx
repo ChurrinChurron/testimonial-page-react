@@ -6,18 +6,18 @@ const ratingDesc = [
     
     {
         id: 1,
-        imgEmp: '../../public/assets/google-testimonial.png',
+        imgEmp: '../../public/google-testimonial.png',
         logoEmp: 'Google',
-        imgStars: '../../public/assets/stars-one.png',
+        imgStars: '../../public/stars-one.png',
         user: 'Samantha Lee',
         review: 'The checklist ensures that the review process is thorough'
     },
 
     {
         id: 2,
-        imgEmp: '../../public/assets/meta-testimonial.png',
+        imgEmp: '../../public/meta-testimonial.png',
         logoEmp: 'Meta',
-        imgStars: '../../public/assets/stars-two.png',
+        imgStars: '../../public/stars-two.png',
         user: 'Rachel Patel',
         review: 'I highly recommend the Writecream Business Description'
     }
